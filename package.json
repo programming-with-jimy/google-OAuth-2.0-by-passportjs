@@ -1,0 +1,21 @@
+{
+  "name": "google-auth-by-passportjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/programming-with-jimy/google-OAuth-2.0-by-passportjs.git",
+  "author": "<'dautugiatriloiphat@gmail.com'>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
